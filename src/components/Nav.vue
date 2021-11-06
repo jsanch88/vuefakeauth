@@ -14,8 +14,8 @@ Vue<span class="bg bg-pink-300 font-normal">FakeAuth</span>
             <router-link to = "/about">
             <li class="bg-pink-500 py-8 px-4 hover: cursor-pointer hover:bg-gray-300 hover:text-blue-700">About</li></router-link>
 
-            <router-link to = "/hello">
-            <li class="bg-pink-500 py-8 px-4 hover: cursor-pointer hover:bg-gray-300 hover:text-blue-700">Hello</li>
+            <router-link to = "/login">
+            <li class="bg-pink-500 py-8 px-4 hover: cursor-pointer hover:bg-gray-300 hover:text-blue-700">Login</li>
         </router-link>
         
 
