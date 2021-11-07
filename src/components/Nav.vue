@@ -22,12 +22,15 @@ Vue<span class="bg bg-pink-300 font-normal">FakeAuth</span>
             <router-link v-if = "!isAuthenticated" to = "/login">
             <li class="bg-pink-500 py-8 px-4 hover: cursor-pointer hover:bg-gray-300 hover:text-blue-700">Login</li></router-link>
 
-            <router-link v-else to = "/secret">
+            <div v-else class = "flex">
+
+            <router-link to = "/secret">
             <li class="bg-pink-500 py-8 px-4 hover: cursor-pointer hover:bg-gray-300 hover:text-blue-700">Secret</li></router-link>
 
-            <button v-else  @click = "logout">
+            <button  @click = "logout">
             <li class="bg-pink-500 py-8 px-4 hover: cursor-pointer hover:bg-gray-300 hover:text-blue-700">Logout</li></button>
-        
+
+            </div>
 
         </ul>
     </nav>
