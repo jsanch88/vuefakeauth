@@ -6,7 +6,7 @@ const user = ref("");
 
 const usersFromDB = [
   { username: "admin", password: "admin", name: "Administrator" },
-  { username: "jsanch88", password: "myPassword1", name: "Jonathan" },
+  { username: "jsanch88", password: "myPassword", name: "Jonathan" },
 ];
 
 const useAuth = () => {
